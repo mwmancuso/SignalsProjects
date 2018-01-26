@@ -3,7 +3,7 @@
 The following file must be downloaded in addition to the files listed here to run the code:
 [ca3_FM_Data.m](https://drive.google.com/file/d/1XIZ1wWOjZ5APeAmpKdg4Udy5pN8l8i4j/view?usp=sharing).
 
-This file is too large to be uploaded to GitHub.
+This file is too large to be uploaded to GitHub. It is also packaged with [the CA3 zip](https://drive.google.com/file/d/1CovjC2Fgk5z18ZI2CaBzEsn1X5kfDhIN/view?usp=sharing)
 
 ## Overview
 The assignment here was to decode AM and FM data. AM and FM signals both operate by varying the signal of a carrier signal. AM (Amplitude Modulation) varies the amplitude of the carrier signal, while FM (Frequency Modulation) varies the frequency of the carrier.
@@ -11,6 +11,8 @@ The assignment here was to decode AM and FM data. AM and FM signals both operate
 This assignment was mainly an exercise in convolution, though some other techniques were used to automate the demodulation.
 
 The entry-point to this project is `MatthewMancusoCA3.m`. From there, it will carry out AM demodulation on three signals transmitted at the same time (found in `ca3_AM_Data.m`) and FM demodulation on one signal found in `ca3_FM_Data.m`.
+
+[Download a ZIP with all files here.](https://drive.google.com/file/d/1CovjC2Fgk5z18ZI2CaBzEsn1X5kfDhIN/view?usp=sharing)
 
 ## AM Demodulation
 The specifics for the AM demodulation can be found in `decodeAMSignals.m`. The code first extracts the carrier frequencies from the data (`getDetectedFrequencies.m`). It does this by using `findpeaks()`, applying thresholds, and averaging the sidebands. These carriers and their sidebands can be seen in `Results/OriginalAMFT.png`.
