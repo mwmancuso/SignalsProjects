@@ -2,6 +2,8 @@
 ## Overview
 The goal of this assignment was to decompress pre-compressed data using the concept of the sum of cosines. The data was compressed by an algorithm invented by Dr. Obeid, my instructor.
 
+[Download a ZIP with all files here.](https://drive.google.com/open?id=1rod5ozMS-zAMp572Jbrv89eGQq38trlZ)
+
 ## Part 1
 The compression algorithm for Part 1 (files `data1.mat`, `data2.mat`, `data3.mat`) is as follows:
 
