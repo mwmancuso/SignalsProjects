@@ -6,6 +6,8 @@ The entry-point to this project is `MatthewMancusoCA2.m`.
 
 From there, the function calls `decodePhoneNumber.m` on two files—one a `.wav` file and the other a `.mat`. The `.mat` file is a compressed audio file, which can be decompressed with the code from CA1—conveniently packaged in `decompressAudio.m`.
 
+[Download a ZIP with all files here.](https://drive.google.com/file/d/1GXZh2KtPaX7LcRU7gKvjNeA3_5PeJ8d4/view?usp=sharing)
+
 ## Algorithm
 The process to extracting the phone number is as follows:
 1. Take one 50ms window of data
