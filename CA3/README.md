@@ -3,7 +3,7 @@
 The following file must be downloaded in addition to the files listed here to run the code:
 [ca3_FM_Data.m](https://drive.google.com/file/d/1XIZ1wWOjZ5APeAmpKdg4Udy5pN8l8i4j/view?usp=sharing).
 
-This file is too large to be uploaded to GitHub. It is also packaged with [the CA3 zip](https://drive.google.com/file/d/1CovjC2Fgk5z18ZI2CaBzEsn1X5kfDhIN/view?usp=sharing)
+This file is too large to be uploaded to GitHub. It is also packaged with [the CA3 zip].(https://drive.google.com/file/d/1CovjC2Fgk5z18ZI2CaBzEsn1X5kfDhIN/view?usp=sharing)
 
 ## Overview
 The assignment here was to decode AM and FM data. AM and FM signals both operate by varying the signal of a carrier signal. AM (Amplitude Modulation) varies the amplitude of the carrier signal, while FM (Frequency Modulation) varies the frequency of the carrier.
